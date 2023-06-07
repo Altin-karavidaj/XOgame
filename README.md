@@ -1,27 +1,27 @@
-# XO
+# XO Game
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
+XO Game is a simple implementation of the classic tic-tac-toe game built with Angular. It allows two players to take turns marking X and O on a 3x3 grid until one player wins or the game ends in a draw.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Interactive game board where players can make moves by clicking on cells
+- Dynamic display of current player's turn
+- Detection of winning combinations and display of the winning player
+- Ability to reset the game and start a new round
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- TypeScript
+- HTML
+- CSS
 
-## Build
+## How to Play
+The game starts with Player X making the first move.
+Players take turns clicking on an empty cell to mark their respective symbols (X or O).
+The game automatically detects a winning combination or a draw and displays the result.
+To start a new round, click the "Play Again" button.
+Have fun playing and enjoy the game!
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Acknowledgements
+Built with the help of Angular and its vibrant community.
